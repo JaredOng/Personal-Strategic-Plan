@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <!-- all content resets based on width of device used -->
+    <meta name="viewport">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="Images/Official Circular Logo (No Text and No BG).png">
+    <title>Jared Ong</title>
+    <script>
+      window.onscroll = function() {
+      var distanceScrolled = document.documentElement.scrollTop;
+      var elementTarget1 = document.getElementById("Strategy");
+      var elementTarget2 = document.getElementById("Objectives");
+      var elementTarget3 = document.getElementById("Internal");
+      var elementTarget4 = document.getElementById("External");
+      var elementTarget5 = document.getElementById("aboutus");
+      var elementTarget6 = document.getElementById("section1");
+      console.log(distanceScrolled)
+      if (distanceScrolled > elementTarget1.offsetTop - 500) {
+        document.getElementsByClassName("navAnimatebar")[0].style.width = "17.3%";
+        document.getElementsByClassName("navAnimatebar")[0].style.left = "79.7%";
+        document.getElementsByClassName("navAnimatebar")[0].style.opacity = "100";
+        document.getElementsByClassName("off")[0].style.color = "#E1E1D7"
+        document.getElementsByClassName("off")[1].style.color = "#E1E1D7"
+        document.getElementsByClassName("off")[2].style.color = "#E1E1D7"
+        document.getElementsByClassName("off")[3].style.color = "#E1E1D7"
+        document.getElementsByClassName("off")[4].style.color = "#E1E1D7"
+      }
+      else if (distanceScrolled > elementTarget2.offsetTop - 500) {
+        document.getElementsByClassName("navAnimatebar")[0].style.width = "13.5%";
+        document.getElementsByClassName("navAnimatebar")[0].style.left = "62.5%";
+        document.getElementsByClassName("navAnimatebar")[0].style.opacity = "100";
+        document.getElementsByClassName("off")[0].style.color = "#E1E1D7"
+        document.getElementsByClassName("off")[1].style.color = "#E1E1D7"
+        document.getElementsByClassName("off")[2].style.color = "#E1E1D7"
+        document.getElementsByClassName("off")[3].style.color = "#E1E1D7"
+        document.getElementsByClassName("off")[4].style.color = "#f68656"
+      }
+      else if (distanceScrolled > elementTarget3.offsetTop - 500) {
+        document.getElementsByClassName("navAnimatebar")[0].style.width = "16.4%";
+        document.getElementsByClassName("navAnimatebar")[0].style.left = "42%";
+        document.getElementsByClassName("navAnimatebar")[0].style.opacity = "100";
+        document.getElementsByClassName("off")[0].style.color = "#E1E1D7"
+        document.getElementsByClassName("off")[1].style.color = "#E1E1D7"
+        document.getElementsByClassName("off")[2].style.color = "#E1E1D7"
+        document.getElementsByClassName("off")[3].style.color = "#f68656"
+        document.getElementsByClassName("off")[4].style.color = "#E1E1D7"
+      }
+      else if (distanceScrolled > elementTarget4.offsetTop - 500) {
+        document.getElementsByClassName("navAnimatebar")[0].style.width = "17%";
+        document.getElementsByClassName("navAnimatebar")[0].style.left = "21%";
+        document.getElementsByClassName("navAnimatebar")[0].style.opacity = "100";
+        document.getElementsByClassName("off")[0].style.color = "#E1E1D7"
+        document.getElementsByClassName("off")[1].style.color = "#E1E1D7"
+        document.getElementsByClassName("off")[2].style.color = "#f68656"
+        document.getElementsByClassName("off")[3].style.color = "#E1E1D7"
+        document.getElementsByClassName("off")[4].style.color = "#E1E1D7"
+      }
+      else if (distanceScrolled > elementTarget5.offsetTop - 500) {
+        document.getElementsByClassName("navAnimatebar")[0].style.width = "9.2%";
+        document.getElementsByClassName("navAnimatebar")[0].style.left = "8.5%";
+        document.getElementsByClassName("navAnimatebar")[0].style.opacity = "100";
+        document.getElementsByClassName("off")[0].style.color = "#E1E1D7"
+        document.getElementsByClassName("off")[1].style.color = "#f68656"
+        document.getElementsByClassName("off")[2].style.color = "#E1E1D7"
+        document.getElementsByClassName("off")[3].style.color = "#E1E1D7"
+        document.getElementsByClassName("off")[4].style.color = "#E1E1D7"
+      }
+      else if (distanceScrolled > elementTarget6.offsetTop - 500) {
+        document.getElementsByClassName("navAnimatebar")[0].style.width = "5%";
+        document.getElementsByClassName("navAnimatebar")[0].style.left = "0px";
+        document.getElementsByClassName("navAnimatebar")[0].style.opacity = "100";
+        document.getElementsByClassName("off")[0].style.color = "#f68656"
+        document.getElementsByClassName("off")[1].style.color = "#E1E1D7"
+        document.getElementsByClassName("off")[2].style.color = "#E1E1D7"
+        document.getElementsByClassName("off")[3].style.color = "#E1E1D7"
+        document.getElementsByClassName("off")[4].style.color = "#E1E1D7"
+      }
+      else{
+        document.getElementsByClassName("navAnimatebar")[0].style.width = "";
+        document.getElementsByClassName("navAnimatebar")[0].style.left = "";
+        document.getElementsByClassName("off")[0].style.color = "#E1E1D7"
+        document.getElementsByClassName("off")[1].style.color = "#E1E1D7"
+        document.getElementsByClassName("off")[2].style.color = "#E1E1D7"
+        document.getElementsByClassName("off")[3].style.color = "#E1E1D7"
+        document.getElementsByClassName("off")[4].style.color = "#E1E1D7"
+      }
+}
+      </script>
+  </head>
+  <body>
+
+   <div class="wholebody">
+      <div id="section1">
+        <div class="left1"><img class="meimg" src="Images/Jared_Portrait.png" alt=""></div>
+        <div class="right1">
+          <div class="text1">
+            <h3>Hi there, my name is</h3>
+            <h1>JARED ONG</h1>
+            <p class="">and I leverage technology to achieve sustainable growth</p>
+          </div>
+          <form class="Form2">
+              <a class="Learn movelinks" href="aboutus.html">
+                About Me
+              </a>
+          </form>
+        </div>
+      </div>
+      <div class="Navbar">
+        <span class="Nav-right">
+          <a class="off nav1 movelinks" href="#section1">HOME</a>
+          <a class="off nav2 movelinks" href="#aboutus">ABOUT ME</a>
+          <a class="off nav3 movelinks" href="#External">EXTERNAL ANALYSIS</a>
+          <a class="off nav4 movelinks" href="#Internal">INTERNAL ANALYSIS</a>
+          <a class="off nav5 movelinks" href="#Objectives">LIFE OBJECTIVES</a>
+          <div class="navAnimatebar"></div>
+          <a class="container99 movelinks" href="#Strategy" >
+            <div style="color: #171040;">STRATEGY & PLANS</div>
+            <!-- <div class="navAnimationbox"></div></a> --></a>
+        </span>
+      </div>
+
+      <div class="section2">
+        <div class="redirector" id="aboutus"></div>
+        <div class="subsection2">
+          <h1>ABOUT ME</h1>
+          <p>I am a passionate and goal-driven college senior interested in growth opportunities in <span>technology, data-management, and entrepreneurship.</span></p>
+          <br>
+          <p>From the moment I first encountered the wonders of technology, I was captivated by its ability to <span>transform our world</span> and open up new possibilities. As a <span>self-proclaimed tech enthusiast</span>, I'm constantly on the lookout for the <span>latest innovations that push the boundaries of human imagination</span>, particularly those that blur the lines between the physical and digital realms. As such, I have become deeply intrigued by the power of programming to <span>create tangible solutions and bring ideas to life</span>.</p> 
+          <a href="https://www.linkedin.com/in/jjaredmatthew/" title="Jared Ong LinkedIn" class="connect_button"><img src="Images/LinkedIn.png" alt="" width="20px"> Connect on LinkedIn</a>
+        </div>
+      </div>
+
+      <div class="section3">
+        <div class="left3">
+          <h2>My Vision</h2>
+          <p>"To become an <span>empowering leader</span>, <span>igniting the spark of innovation</span> and <span>empowering individuals</span> to transform ideas into tangible machines through the <span>transformative power of technology."</span></p>
+        </div>
+        <div class="right3">
+          
+          <h2>My Mission</h2>
+          <p><ol>
+            <li><span>To champion the democratization of new technology</span> in the Philippines, ensuring that its transformative power is <span>accessible to all, regardless of background or expertise.</span></li>
+              <li><span>To inspire a generation of innovators, problem solvers, and changemakers</span>, who will harness technology to <span>address global challenges and shape a brighter future.</span></li>
+              <li><span>To equip individuals</span> with the necessary and up-to-date <span>technological skills and knowledge</span> to bridge the gap between abstract concepts and tangible machines.</li>
+              <li> <span>To cultivate an environment that fosters creativity, collaboration, and boundless imagination</span>, where ideas are nurtured and transformed into reality</li>
+              <li><span>To continually grow as an individual</span> and <span>expand my connection and impact</span> by establishing partnerships with organizations across various sectors.</li>
+          </ol></p>
+        </div>
+      </div>
+
+      <div class="section4">
+        <h2>CORE VALUES</h2>
+        <div class="squareflexbox">
+          <div class="square">
+            <h3>Creativity:</h3>
+            <p> Embracing ingenuity and unconventional thinking to push the boundaries of machine design.</p>
+          </div>
+          <div class="square">
+            <h3>Resourcefulness:</h3>
+            <p> Maximizing available resources and minimizing waste to achieve sustainable solutions.</p>
+          </div>
+          <div class="square">
+            <h3>Collaboration:</h3>
+            <p> Fostering a collaborative environment where diverse perspectives converge to enhance innovation.</p>
+          </div>
+          <div class="square">
+            <h3>Integrity:</h3>
+            <p> Upholding ethical principles and ensuring technology are used responsibly for the betterment of society.</p>
+          </div>
+          <div class="square">
+            <h3>Continuous Learning:</h3>
+            <p> Embracing lifelong learning and staying at the forefront of technological advancements.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="section5">
+        <div class="redirector" id="External"></div>
+        <h1>External Analysis</h1>
+        <div class="division5">
+          <div class="left5">
+            <h2 style="text-align: center;">STEP-C ANALYSIS</h2>
+            <table class="table5">
+              <tr>
+                <th>Component</th>
+                <th>Factors</th>
+              </tr>
+              <tr>
+                <td>Societal Trends</td>
+                <td><ul>
+                  <li>Shift towards a more digital and interconnected world</li>
+                  <li>High expectancy of new technologies like AI, IoT, and robotics</li>
+                  <li>Increasing demand for technological solutions</li>
+                </ul></td>
+              </tr>
+              <tr>
+                <td>Technological Trends</td>
+                <td><ul>
+                  <li>Rapid technological advancements, especially in AI and IoT</li>
+                  <li>Exponential growth of data and information</li>
+                  <li>Increasing adoption of cybersecurity measures</li>
+                </ul></td>
+              </tr>
+              <tr>
+                <td>Economic Trends</td>
+                <td><ul>
+                  <li>Global economic growth and increasing demand for technology platforms and solutions</li>
+                  <li>Rise of the digital economy and e-commerce</li>
+                  <li>Growing investment in technology R&D</li>
+                  <li>Shortage of skilled tech workers</li>
+                </ul></td>
+              </tr>
+              <tr>
+                <td>Political Trends</td>
+                <td><ul>
+                  <li>AI regulations for safety, transparency, and accountability</li>
+                  <li>Strict data privacy measures</li>
+                </ul>
+              </tr>
+              <tr>
+                <td>Competitive Landscape</td>
+                <td><ul>
+                  <li>Presence of large tech giants like Google, Microsoft, and Amazon</li>
+                  <li>Emergence of numerous startups and innovative tech companies</li>
+                  <li>Need for continuous innovation and differentiation</li>
+                  <li>Importance of collaboration and partnerships</li>
+                </ul></td>
+              </tr>
+              
+
+            </table>
+          </div>
+          <div class="right5">
+            <h2>Industry Life Cycle: Growth Stage</h2>
+            <p><span>There is signficant rapid growth in the tech industry</span>: The global tech market is expected to reach <span>$5.2 trillion by 2025</span>. New technologies are <span>constantly being developed and adopted</span>, which is driving growth in the industry.</p>
+            
+            <h2>Opportunities</h2>
+            <table class="Opptable">
+              <tr>
+                <th>High Demand and Diverse Career Paths:</th>
+                <th>Continuous Learning and Growth: </th>
+                <th>Competitive Compensation and Benefits:</th>
+                <th>Global Impact and Problem-Solving:</th>
+                <th>Interdisciplinary Collaboration and Innovation:</th>
+              </tr>
+              <td width="200px">In various fields including software development, cybersecurity, data science, and AI</td>
+              <td width="200px">There is constant innovation, where continuous learning and professional development are essential.</td>
+              <td width="200px">Tech professionals are generally well-compensated, often exceeding industry averages.</td>
+              <td width="200px">There is potential to make a impact on the world by developing innovative solutions to global challenges.</td>
+              <td width="200px">The tech industry is highly collaborative, bringing together individuals from diverse backgrounds and expertise.</td>
+            </table>
+            <h2>Threats</h2>
+            <table class="Opptable">
+              <tr>
+                <th>Rapid Job Displacement:</th>
+                <th>Cybersecurity Threats and Data Breaches:</th>
+                <th>Work-Life Balance and Mental Health Concerns:</th>
+                <th>Ethical Considerations and Social Responsibility:</th>
+              </tr>
+              <tr>
+                <td>Tech professionals need to stay adaptable and continuously upskill to remain relevant</td>
+                <td>Tech professionals play a critical role in protecting sensitive data and preventing cyberattacks.</td>
+                <td>The tech industry can be demanding, with long hours and high-pressure environments.</td>
+                <td>Tech professionals have a responsibility to consider the ethical implications of their work.</td>
+              </tr>
+            </table>
+          </div>
+        </div>
+        
+      </div>
+
+      <div class="section6">
+        <div class="redirector" id="Internal"></div>
+        <h1 style="text-align: center;">INTERNAL ANALYSIS</h1>
+        <div class="division6">
+          <div class="left6">
+            <img src="Images/Jared_Standing.png" alt="">
+            
+          </div>
+          <div class="right6">
+            <div class="rightdivision6">
+              <div class="arrow"><img src="Images/ArrowRight.png" alt=""></div>
+              <div><h2>Strengths</h2>
+                <table class="Opptable">
+                  <tr>
+                    <th width="200px">Passion for exploring new technologies </th>
+                    <th width="200px">Strong problem-solving skills and strong foundation in technology</th>
+                    <th width="200px">Genuine desire to help others and make a positive impact on the world. </th>
+                    <th width="200px">Strong organizational and time management skills, </th>
+                    <th width="200px">Strong curiosity and openness to new ideas and experiences. </th>
+                  </tr>
+                  <tr>
+                    <td>Up-to-date with technological trends, applying them to solve real-world problems. </td>
+                    <td>Knowledgable in different programming languages and software development</td>
+                    <td>Exhibit a commitment to providing high-quality service, going above and beyond for others</td>
+                    <td>Ensuring that plans are executed efficiently and deadlines are met.</td>
+                    <td>Explore new possibilities, learn from mistakes and venture outside comfort zone.</td>
+                  </tr>
+                </table>
+              </div>
+            </div>
+            <br>
+            <div class="rightdivision6">
+              <div class="arrow"><img src="Images/ArrowRight.png" alt=""></div>
+              <div><h2>Weaknesses</h2>
+                <table class="Opptable">
+                  <tr>
+                    <th width="250px">Occasional tendency to overlook minor details </th>
+                    <th width="250px">Occasional difficulty staying focused on tasks</th>
+                    <th width="250px">Occasional difficulty expressing thoughts and ideas clearly and concisely. </th>
+                    <th width="250px">Excessive level of self-assurance in one's own ideas</th>
+                  </tr>
+                  <tr>
+                    <td>Leads to errors or oversights that could have been avoided</td>
+                    <td>Easily distracted by external stimuli or internal thoughts</td>
+                    <td>Lead to misunderstandings and ineffective communication</td>
+                    <td>Unwillingness to consider and incorporate alternative viewpoints</td>
+                  </tr>
+                </table>
+              </div>
+            </div><br><br>
+            <h2>OVERALL ANALYSIS: IE MATRIX</h2>
+            <img class="IE" src="Images/IE Matrix.png" alt="">
+            <p>Click to view computation</p>
+            <br>
+            <p>THEREFORE we will pursue <span>DEVELOPMENT STRATEGIES</span></p>
+          </div>
+        </div>
+      </div>
+
+      <div class="section7">
+        <div class="redirector" id="Objectives"></div>
+        <h1>Life Objectives</h1>
+        <h2>Personal</h2>
+        <table class="table7">
+          <tr>
+            <th width="7%">Aspect</th>
+            <th width="18%">Long-term objectives</th>
+            <th width="30%">Short-term objectives</th>
+            <th>KPIs in 5-years time (Must not miss if regular interval)</th>
+          </tr>
+          <tr>
+            <td rowspan="7" style="background-color: #033453; color: white">Personal</td>
+            <td rowspan="4" style="background-color: #033453; color: white">Enjoy an active and fulfilling life</td>
+            <td>Achieve a healthy body</td>
+            <td>> Have at least 200 minutes of moderate-intensity exercise or 75 minutes of vigorous-intensity exercise per week.<br>
+              > Maintain a BMI of 18.5 to 24.9</td>
+          </tr>
+          <tr>
+            <td>Regularly do sports</td>
+            <td>> Play a form of sport at least 2x a week <br>
+              > Be able to play 5 sports atleast at medium proficiency</td>
+          </tr>
+          <tr>
+            <td>Maintain connection with distant friends and relatives</td>
+            <td>> Connect with friends atleast once a week <br>> Have regular phone calls or video chats. with friends and families atleast once a week</td>
+          </tr>
+          <tr>
+            <td>Develop personal branding</td>
+            <td>> Be active in social media platforms, garnering atleast 2 posts per month <br>
+              > Gain 2k followers on IG</td>
+          </tr>
+          <tr>
+            <td rowspan="1" style="background-color: #033453; color: white">Develop emotional intelligence and spiritual-awareness</td>
+            <td>Acquire knowledge from books</td>
+            <td>> Be able to read at least 2 books per month <br>
+              > Listen to 1 short audiobook daily</td>
+          </tr>
+          <tr>
+            <td rowspan="2" style="background-color: #033453; color: white">Make a positive impact on your community</td>
+            <td>Expand my social network</td>
+            <td>> Create atleast 2 new connections weekly <br>> Expose myself to a networking session atleast once a month</td>
+          </tr>
+          <tr>
+            <td>Give back to the community</td>
+            <td>> Successfully create/participate in a community outreach program <br>
+              > Have connected to atleast 5 communiity development programs partners</td>
+          </tr>
+        </table><br>
+        <h2>Professional</h2>
+        <table class="table7">
+          <tr>
+            <th width="7%">Aspect</th>
+            <th width="18%">Long-term objectives</th>
+            <th width="30%">Short-term objectives</th>
+            <th>KPIs in 5-years time (Must not miss if regular interval)</th>
+          </tr>
+          <tr>
+            <td rowspan="6" style="background-color: #033453; color: white">Career & Financial</td>
+            <td rowspan="3" style="background-color: #033453; color: white">Become a thought leader in the industry</td>
+            <td>Engage in practical application and hands-on experience</td>
+            <td>> Be actively involved in atleast 20 major tech projects from any company<br>
+              > Be actively involved in atleast 15 UX/UI projects/hackathons</td>
+          </tr>
+          <tr>
+            <td>Become an expert in your field</td>
+            <td>> Always stay updated in relevant industries, spend 30 mins reading weekly reports</td>
+          </tr>
+          <tr>
+            <td>Become a well-known charismatic leader</td>
+            <td>> Successfully lead 10 team initiatives with atleast 90% satisfaction ratings from consumers</td>
+          </tr>
+          <tr>
+            <td rowspan="2" style="background-color: #033453; color: white">Launch my own startup</td>
+            <td>Gain insight from different startups</td>
+            <td>> Secure a management position in atleast 2 different types of startups<br>
+              > Network with atleast 10 Venture Capital Firms</td>
+          </tr>
+          <tr>
+            <td>Launch my own startup</td>
+            <td>> Successfully launch startup to the public <br>
+              > Get an intitial 90% satisfaction rate for initial feedback <br>
+              > Get 5k users at the end of the 5 year-period</td>
+          </tr>
+          <tr>
+            <td rowspan="2" style="background-color: #033453; color: white">Achieve financial independence</td>
+            <td>Financial Income & Passive Income</td>
+            <td>> Be able to 100%  support myself financially <br> > Secure 10% of what I earn as savings regularly <br> > Earn 100k total from passive income</td>
+          </tr>
+        </table>
+      </div>
+      
+      <div class="section8">
+        <div class="redirector" id="Strategy"></div>
+
+        <h1 style="text-align: center;">STRATEGY & PLANS</h1>
+        <h2>Roadmap</h2>
+        <h3>2023-2024</h3>
+        <img src="Images/Roadmap2.png" alt="">
+        <h3>2024-2028</h3>
+        <img src="Images/Roadmap1.png" alt="">
+        <h2 style="margin-top: 40px;">Risks & Mitigation</h2>
+        <table class="table8">
+          <tr>
+            <th>Risk/s</th>
+            <th>Mitigation/s</th>
+          </tr>
+          <tr>
+            <td>If I find myself not having the necessary skills or experience to achieve my goals.</td>
+            <td>Continuously develop your skills and knowledge through training, certifications, and on-the-job experience. Actively network with professionals in your field to gain insights and advice.</td>
+          </tr>
+          <tr>
+            <td>Facing unexpected challenges or setbacks in your career path.</td>
+            <td>Maintain a positive mindset, set apart new time to continue to develop career goals</td>
+          </tr>
+          <tr>
+            <td>Losing motivation or feeling overwhelmed by your goals.</td>
+            <td>Regularly review your progress and celebrate your accomplishments. Find a support system or accountability partner to stay motivated.</td>
+          </tr>
+        </table>
+      </div>
+
+    <div class="images nomob">
+      <!-- Left side -->
+      <img src="Images/Group 69.png" alt="" class=" bg_images nomob" style="width: 9%; left: 23%; top: 15%; position: "fixed"">
+      <img src="Images/Group 73.png" alt="" class=" bg_images" style="width: 12%; left: 5%; top: 23%; position: "relative"">
+      <img src="Images/Group 70.png" alt="" class=" bg_images" style="width: 8%; left: 28%; top: 55%; position: "static"">
+      <img src="Images/Vector 312.png" alt="" class=" bg_images nomob" style="width: 10%; left: 2%; top: 75%; position: "static"">
+      <img src="Images/shoesxz.png" alt="" class=" bg_images nomob" style="width: 10.3%; left: 0%; top: 65%;">
+      <img src="Images/Group 65.png" alt="" class=" bg_images" style="height: 30%; left: 15%; top: 67%; position: "static"">
+      <!-- Right side -->
+      <img src="Images/Group 74.png" alt="" class=" bg_images" style="width: 16%; left: 63%; top: 17%;">
+      <img src="Images/Group 67.png" alt="" class=" bg_images" style="width: 16%; left: 73%; top: 19%;">
+      <img src="Images/Group 66.png" alt="" class=" bg_images" style="width: 12%; left: 88%; top: 55%;">
+      <img src="Images/shef.png" alt="" class=" bg_images nomob" style="width: 10%; left: 70%; top: 65%;">
+      <img src="Images/bananashake.png" alt="" class=" bg_images nomob" style="width: 9%; left: 78%; top:75%;">
+    </div>
+
+    <div class="footer"><a href="#section1">Back to top</a></div>
+
+    <script src="scroll-out.js"></script>
+   <script type="text/javascript">
+     ScrollOut({
+       targets: '.Button, .Navbar'
+     })
+   </script>
+
+
+<!-- wholebody -->
+    </div>
+  </body>
+</html>
